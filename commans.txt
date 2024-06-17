@@ -1,0 +1,45 @@
+know u system details by cat /etc/os-release
+
+know your shell default by echo $0
+
+
+-------------------------------new file ------------------------------
+make a new script file by vi script.sh
+
+start your script file by #!/bin/bash
+echo "write your name"
+
+not save the file by esc -> shift+coluon -> wq
+read file by 2 ways : by permission : ls ltr -> chmod +x script.sh -> give permission to your file .-> ./script.sh
+
+read by -> bash script.sh 
+
+------------------comments------------------------------------------------
+
+single line comment by adding # at the beginning
+multiple line comments by 
+<<<comment 
+
+//write your
+comments here 
+//
+
+comment ( it should be same as start)
+
+-------------variables------------------------------------------------------
+
+define variables as
+
+a = 10
+b= any string 
+
+call them as 
+echo("a is $a")
+we can also call the inbuilt commands by storing them as variables
+
+eg : HOSTNAME =$(hostname)
+
+echo("here is the hostname $HOSTNAME")
+
+-------------------
+
